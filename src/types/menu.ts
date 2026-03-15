@@ -14,6 +14,8 @@ export interface MenuItem {
   description?: string;
   /** 是否需要預訂 */
   needsReservation?: boolean;
+  /** 原料產地來源（含雞豬牛肉品及其製品須標註） */
+  origin?: string;
   /** 產品圖片路徑（相對於 /public/images/） */
   image?: string;
 }
