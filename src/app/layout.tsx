@@ -10,8 +10,8 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "黑松沙士快樂熱炒區 菜單",
-  description: "樂天桃猿 黑松沙士快樂熱炒區 — 互動式菜單瀏覽與預點",
+  title: "黑松沙士快樂炒區 菜單",
+  description: "樂天桃猿 黑松沙士快樂炒區 — 互動式菜單瀏覽與預點",
 };
 
 export const viewport: Viewport = {

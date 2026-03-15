@@ -12,7 +12,7 @@ export function Header() {
             Rakuten Monkeys 樂天桃猿
           </p>
           <h1 className="text-lg font-bold leading-tight tracking-tight">
-            黑松沙士快樂熱炒區
+            黑松沙士快樂炒區
           </h1>
         </div>
         <span className="rounded-md bg-white/15 px-2.5 py-1 text-xs font-medium">

@@ -3,7 +3,7 @@ import type { MenuData } from "@/types/menu";
 /**
  * 菜單資料
  *
- * 樂天桃猿 黑松沙士快樂熱炒區 完整菜單
+ * 樂天桃猿 黑松沙士快樂炒區 完整菜單
  * 資料來源：菜單列表.md
  */
 export const menuData: MenuData = {
@@ -167,6 +167,7 @@ export const menuData: MenuData = {
           price: 2999,
           needsReservation: true,
           image: "/images/items/a5-newyork-steak.png",
+          origin: "待標示",
           description: "林立在場上從不張揚，卻總在關鍵時刻交出成績，正如日本A5和牛紐約客的油花分布，低調藏於肌理之間，入口才知其霸氣。紐約客部位筋肉交錯、嚼感扎實，搭配A5等級的豐厚油脂，每一口都是沉穩而確實的滿足。250g的份量，是王者該有的分量。",
         },
         {
@@ -175,6 +176,7 @@ export const menuData: MenuData = {
           price: 2499,
           needsReservation: true,
           image: "/images/items/a5-filet.png",
+          origin: "待標示",
           description: "廉世彬以「啦啦隊女王」之姿站上頂點，而菲力正是和牛世界裡最尊貴的部位，兩者都是各自領域無可撼動的第一。菲力取自腰內肉，幾乎零筋膜，口感細緻如絲，A5等級的油脂更讓每一口化口即融。精緻的150g份量，是女王才配得上的純粹奢華。",
         },
         {
@@ -182,6 +184,7 @@ export const menuData: MenuData = {
           portion: "200g",
           price: 799,
           image: "/images/items/a5-dice.png",
+          origin: "待標示",
           description: "朱承洋在投手丘上以壓制性的球威讓打者束手無策，A5和牛肋條骰子同樣霸道，肋條部位油脂豐沛、肉香濃烈，切成骰子狀後每一面都能均勻受熱、鎖住肉汁。大火快烤至表面微焦，咬下去的瞬間，才真正感受到「大魔王」的威力。",
         },
         {
@@ -189,6 +192,7 @@ export const menuData: MenuData = {
           portion: "200g",
           price: 499,
           image: "/images/items/m9-shoulder.png",
+          origin: "待標示",
           description: "大聖取自齊天大聖的英雄氣概，王者氣勢正好對上澳洲和牛M9背肩的頂級定位，讓這道200g和牛一上桌就有主場焦點感。肩胛部位肉味醇厚、M9油花讓口感扎實又滑順，薄切炭烤幾秒即熟，入口就是濃香與層次並進的高級感。",
         },
         {
@@ -196,6 +200,7 @@ export const menuData: MenuData = {
           portion: "200g",
           price: 499,
           image: "/images/items/wagyu-topside.png",
+          origin: "待標示",
           description: "曾豪駒總教練帶領Team Taiwan拿下2024年12強總冠軍，球迷暱稱他「龍貓教練」。和尚頭取自牛頸背交界處，肉質緊實帶嚼勁，油花分布均勻，燒烤後香氣四溢。冠軍教練的招牌，就藏在這塊名字裡。",
         },
       ],
@@ -208,6 +213,7 @@ export const menuData: MenuData = {
           portion: "300g",
           price: 499,
           image: "/images/items/cab-big-steak.png",
+          origin: "待標示",
           description: "廖健富是球隊打線的定海神針，2023年打點王的稱號實至名歸，而這塊「比臉大」的CAB認證牛排，份量同樣霸氣得讓人心安。CAB（Certified Angus Beef）嚴選安格斯牛，肉質鮮嫩多汁，300g的厚切規格，是打線支柱才撐得起的重量。",
         },
         {
@@ -215,6 +221,7 @@ export const menuData: MenuData = {
           portion: "300g",
           price: 459,
           image: "/images/items/bone-in-short-rib.png",
+          origin: "待標示",
           description: "「牛棚王牌」陳冠宇鎮守投手牛棚，而這道帶骨牛小排，「牛」字一語雙關，棚裡的王牌與盤中的牛肉，名字裡早就埋好了緣分。帶骨牛小排骨邊肉油脂豐厚、膠質充足，炭烤後骨香滲入肉中，越啃越香。300g的份量，是王牌等級的豪邁。",
         },
         {
@@ -222,6 +229,7 @@ export const menuData: MenuData = {
           portion: "200g",
           price: 369,
           image: "/images/items/flat-iron-slice.png",
+          origin: "待標示",
           description: "梁家榮在2026年正式就任隊長，肩負全隊的重量，板腱部位同樣是牛肩的核心，中央一條筋膜貫穿，讓肉質在嫩中帶著層次感。薄切燒烤片在炭火上快速過一遍，筋膜軟化、肉汁鎖住，是隊長風範，穩而不失個性。",
         },
         {
@@ -229,6 +237,7 @@ export const menuData: MenuData = {
           portion: "200g",
           price: 369,
           image: "/images/items/cab-chuck-roll.png",
+          origin: "待標示",
           description: "林立是球隊的靈魂，而梅花牛正是牛肉世界裡最有靈魂的部位，肩胛肉的油花如梅花般散落，每一片都帶著豐富的肉味層次。CAB認證確保品質穩定，薄切後在炭火上幾秒即熟，香氣直竄，是那種讓人吃了還想再夾一片的存在。",
         },
         {
@@ -236,6 +245,7 @@ export const menuData: MenuData = {
           portion: "200g",
           price: 369,
           image: "/images/items/dice-beef.png",
+          origin: "待標示",
           description: "張閔勛等了十年，才在2024年拿下生涯首座十佳捕手獎，那份厚積薄發的感動，就像骰子牛在炭火上的蛻變。骰子牛切自牛肩或腰脊，每塊約2至3公分，大火快烤讓表面焦香、內裡粉嫩，十年的等待，換來這一口的值得。",
         },
         {
@@ -243,6 +253,7 @@ export const menuData: MenuData = {
           portion: "200g",
           price: 280,
           image: "/images/items/beef-belly-slice.png",
+          origin: "待標示",
           description: "「陳陳」是球迷對陳冠宇最親切的叫法，沒有距離感，就像牛五花烤片在燒烤攤上的存在，平易近人卻讓人念念不忘。牛五花油脂與瘦肉層層交疊，烤至微焦後油香四溢，搭配沾醬超對味。親切的價格，親切的好吃。",
         },
       ],
@@ -255,6 +266,7 @@ export const menuData: MenuData = {
           portion: "180g",
           price: 499,
           image: "/images/items/xibi-pork-belly.png",
+          origin: "待標示",
           description: "喜比食堂是知名YouTuber Judy旗下的品牌，以職人工法將豬五花進行超長時間熟成處理，讓肉質更加柔嫩、風味更為集中。熟成過程分解多餘水分，烤後油脂香氣更濃郁，五花肉的層次感也更鮮明。180g的精緻份量，是品牌對品質的自信。",
         },
         {
@@ -262,6 +274,7 @@ export const menuData: MenuData = {
           portion: "200g",
           price: 499,
           image: "/images/items/matsusaka-pork.png",
+          origin: "待標示",
           description: "琳妲突破百萬IG追蹤，是啦啦隊裡的頂流，而松阪豬同樣是豬肉界的頂級部位，取自豬頸與肩胛交界的活動肌群，油花細密、口感爽脆彈牙。炭烤至表面微焦，切片後粉嫩多汁，是百萬等級才有的細緻與魅力。",
         },
         {
@@ -269,6 +282,7 @@ export const menuData: MenuData = {
           portion: "200g",
           price: 499,
           image: "/images/items/iberico-chuck.png",
+          origin: "待標示",
           description: "梁家榮的「阿銀」暱稱來自他獨特的外型氣質，而伊比利豬梅花同樣有著讓人過目難忘的特質，橡果飼育的伊比利豬油脂帶有堅果香氣，梅花部位油花分布均勻，口感介於嫩與彈之間。烤後香氣層次豐富，是有個性的好味道。",
         },
         {
@@ -276,6 +290,7 @@ export const menuData: MenuData = {
           portion: "300g",
           price: 369,
           image: "/images/items/bone-in-pork-rib.png",
+          origin: "待標示",
           description: "朱承洋從傷病中復出，以「浴火鳳凰」之姿重返球場，而帶骨豬小排最適合的料理方式，正是炭火直烤，在火焰中淬鍊出最動人的焦香。骨邊肉膠質豐富、肉汁充沛，烤至骨肉微微分離時，就是最完美的時機。浴火，才能重生。",
         },
         {
@@ -283,6 +298,7 @@ export const menuData: MenuData = {
           portion: "300g",
           price: 349,
           image: "/images/items/salted-pork.png",
+          origin: "待標示",
           description: "成晉以「綠島囡仔」為2026春訓官方命名球衣，帶著台灣在地的純樸氣息，而鹹豬肉正是最道地的台式燒烤靈魂，以蒜頭、米酒、鹽巴醃漬入味，烤後外皮微酥、肉香四溢。在地的孩子，配上在地的味道，這才是桃園的夏天。",
         },
         {
@@ -290,6 +306,7 @@ export const menuData: MenuData = {
           portion: "200g",
           price: 280,
           image: "/images/items/pork-chuck-slice.png",
+          origin: "待標示",
           description: "阿誠是前應猿團長14年陪伴球迷的傳奇名字，對應這道最經典的梅花豬烤片，正好把熟悉與致敬都放進每一口，$280更顯親民誠意。200g薄切梅花油花均勻、肉質軟嫩，炭火幾秒即熟就能吃到甜香肉汁，是全桌最耐吃的經典款。",
         },
       ],
@@ -302,6 +319,7 @@ export const menuData: MenuData = {
           portion: "1包兩入",
           price: 239,
           image: "/images/items/boneless-chicken-thigh.png",
+          origin: "待標示",
           description: "河智媛在訪談中坦然接受「蜜大腿女神」的稱號，而這道去骨雞腿排，「大腿」二字一語雙關，女神的大腿與盤中的雞腿，早就是命中注定的組合。去骨處理讓食用更方便，雞腿肉油脂豐厚、皮脆肉嫩，炭烤至雞皮金黃酥香，是整桌最快被搶光的那道。",
         },
         {
@@ -309,6 +327,7 @@ export const menuData: MenuData = {
           portion: "6入/包",
           price: 229,
           image: "/images/items/chicken-tender-skewer.png",
+          origin: "待標示",
           description: "Rocky身為樂天桃猿吉祥物代表穩固可靠，和雞里肌串在燒烤桌上的角色一樣不喧嘩卻不可少，$229六入/包剛好成為聚餐的清爽穩定戰力。雞里肌低脂高蛋白、肉質細嫩，串燒後受熱均勻不乾柴，入口乾淨俐落又有飽足感。",
         },
       ],
@@ -398,6 +417,7 @@ export const menuData: MenuData = {
           portion: "10入",
           price: 499,
           image: "/images/items/kaoliang-sausage.png",
+          origin: "待標示",
           description: "林泓育作為球隊「精神領袖」的老將代表，豪邁穩重的氣質和高粱酒香腸最對味，$499十入的份量也很有帶隊分享感。高粱酒醃製讓酒香醇厚滲進紮實肉質，炭烤後表皮微焦、油脂微微滲出，入口就是成熟又濃烈的台式豪氣。",
         },
         {
@@ -405,6 +425,7 @@ export const menuData: MenuData = {
           portion: "10入",
           price: 499,
           image: "/images/items/garlic-sausage.png",
+          origin: "待標示",
           description: "「小胖」是林泓育多年來的親切暱稱，帶著一股豪邁不做作的江湖氣，蒜味香腸同樣是燒烤桌上最豪爽的存在，蒜香濃郁、肉汁飽滿，咬下去的滿足感直接了當。10入份量，夠義氣，夠小胖。",
         },
         {
@@ -412,6 +433,7 @@ export const menuData: MenuData = {
           portion: "5入",
           price: 299,
           image: "/images/items/maqaw-sausage.png",
+          origin: "待標示",
           description: "馬傑森是來自花蓮的布農族球員，「小馬」的暱稱裡藏著他的姓氏，而馬告正是台灣原住民族最珍貴的山胡椒香料，原住民球員與原住民香料的相遇，是這道香腸最動人的故事。馬告的檸檬草香氣與香檬的清新酸香交融，讓香腸多了一層山林的野性，是獨一無二的台灣味。",
         },
         {
@@ -419,6 +441,7 @@ export const menuData: MenuData = {
           portion: "5入",
           price: 299,
           image: "/images/items/chili-sausage.png",
+          origin: "待標示",
           description: "彭彭人氣急速竄升時，媒體以「黑馬」形容她出乎意料的魅力，剝皮辣椒香腸同樣是燒烤桌上的黑馬，外表看似平凡，咬下去才發現剝皮辣椒的甘辣香氣藏在肉汁裡，後勁十足。不鳴則已，一鳴驚人，這就是黑馬的本色。",
         },
       ],

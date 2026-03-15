@@ -59,6 +59,11 @@ export function ItemCard({ item }: ItemCardProps) {
                 {item.needsReservation && <ReservationBadge />}
               </div>
               <p className="mt-0.5 text-sm text-neutral-500">{item.portion}</p>
+              {item.origin && (
+                <p className="mt-0.5 text-xs text-neutral-400">
+                  產地：{item.origin}
+                </p>
+              )}
             </div>
             <p className="shrink-0 text-lg font-bold text-rakuten-crimson">
               ${item.price.toLocaleString()}
@@ -114,6 +119,11 @@ export function ItemCard({ item }: ItemCardProps) {
               </p>
               <p className="text-sm text-neutral-500">{item.portion}</p>
             </div>
+            {item.origin && (
+              <p className="mt-0.5 text-[11px] text-neutral-400">
+                產地：{item.origin}
+              </p>
+            )}
             {item.description && (
               <span className={`mt-1 inline-block text-xs text-neutral-400 transition-transform ${mobileExpanded ? "rotate-180" : ""}`}>
                 ▼
