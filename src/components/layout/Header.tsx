@@ -18,8 +18,8 @@ export function Header() {
         <Image
           src="/logo.png"
           alt="Stockfeel Logo"
-          width={130}
-          height={40}
+          width={260}
+          height={80}
           className="rounded"
         />
       </div>
