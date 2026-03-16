@@ -18,8 +18,8 @@ export function Footer() {
           <Image
             src="/logo.png"
             alt="Stockfeel Logo"
-            width={46}
-            height={14}
+            width={65}
+            height={20}
             className="rounded-sm"
           />
         </a>
