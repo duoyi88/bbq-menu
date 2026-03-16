@@ -92,7 +92,7 @@ export function MenuNav({ categories }: MenuNavProps) {
 
   return (
     <nav
-      className="sticky top-16 z-40 -mx-4 border-b border-neutral-200 bg-white"
+      className="sticky top-[6rem] z-40 -mx-4 border-b border-neutral-200 bg-white"
     >
       <div
         ref={scrollRef}
