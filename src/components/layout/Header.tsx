@@ -20,7 +20,7 @@ export function Header() {
           alt="Stockfeel Logo"
           width={260}
           height={80}
-          className="rounded"
+          className="h-8 w-auto rounded sm:h-10 md:h-12"
         />
       </div>
     </header>
