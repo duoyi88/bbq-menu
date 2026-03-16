@@ -12,7 +12,7 @@ interface CategorySectionProps {
  */
 export function CategorySection({ category }: CategorySectionProps) {
   return (
-    <section id={`section-${category.name}`} className="scroll-mt-28">
+    <section id={`section-${category.name}`} className="scroll-mt-36">
       <h2 className="mb-3 flex items-center gap-2 border-l-4 border-rakuten-crimson pl-3 text-base font-bold text-neutral-900">
         <span>{category.name}</span>
         <span className="text-sm font-normal text-neutral-400">
