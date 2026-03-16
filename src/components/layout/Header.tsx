@@ -18,7 +18,7 @@ export function Header() {
         <Image
           src="/logo.png"
           alt="Stockfeel Logo"
-          width={40}
+          width={130}
           height={40}
           className="rounded"
         />
