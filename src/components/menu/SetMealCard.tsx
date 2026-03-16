@@ -75,7 +75,7 @@ export function SetMealCard({ setMeal }: SetMealCardProps) {
                 {item.name}
               </span>
               <span className="text-neutral-400">
-                x{item.quantity} · ${item.unitPrice}
+                ${item.unitPrice} · x{item.quantity}
               </span>
             </div>
           ))}
