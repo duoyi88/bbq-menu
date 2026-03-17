@@ -7,6 +7,11 @@ import Link from "next/link";
 /** Header 外部導航項目 */
 const navItems = [
   {
+    label: "菜單",
+    href: "/",
+    external: false,
+  },
+  {
     label: "席次介紹",
     href: "https://monkeys.rakuten.com.tw/news_detail/755",
     external: true,
