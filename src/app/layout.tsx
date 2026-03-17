@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Geist } from "next/font/google";
 import { Header } from "@/components/layout";
 import { Footer } from "@/components/layout";
@@ -107,6 +108,9 @@ export default function RootLayout({
         <main className="mx-auto max-w-3xl px-4 py-6">{children}</main>
         <Footer />
       </body>
+      {process.env.NEXT_PUBLIC_GA_ID && (
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+      )}
     </html>
   );
 }
