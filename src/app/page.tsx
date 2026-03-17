@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { menuData } from "@/data/menu";
 import { MenuNav, SetMealCard, CategorySection } from "@/components/menu";
+import { ScrollToTop } from "@/components/layout/ScrollToTop";
 
 const groupMeals = menuData.setMeals.filter((m) => m.type === "group");
 const comboMeals = menuData.setMeals.filter((m) => m.type === "combo");
@@ -13,36 +14,6 @@ const comboMeals = menuData.setMeals.filter((m) => m.type === "combo");
 export default function MenuPage() {
   return (
     <div>
-      {/* Stockfeel 股感媒體介紹 */}
-      <section className="mb-6 overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-sm">
-        <div className="flex items-center gap-4 p-4">
-          <Image
-            src="/logo.png"
-            alt="Stockfeel 股感媒體 Logo"
-            width={260}
-            height={80}
-            className="h-10 w-auto shrink-0 rounded sm:h-12"
-          />
-          <div className="min-w-0">
-            <h2 className="text-sm font-bold text-neutral-900 sm:text-base">
-              股感 Stockfeel × 朵頤餐飲
-            </h2>
-            <p className="mt-0.5 text-xs leading-relaxed text-neutral-500 sm:text-sm">
-              股感媒體為台灣領先的財經生活媒體，本次與朵頤餐飲聯手進駐
-              樂天桃猿主場——黑松沙士快樂炒區，讓你在青埔棒球場邊看中華職棒邊享受頂級燒烤體驗。
-            </p>
-          </div>
-        </div>
-        <a
-          href="https://www.stockfeel.com.tw/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block border-t border-neutral-100 bg-neutral-50 px-4 py-2 text-center text-xs font-medium text-rakuten-crimson transition-colors hover:bg-rakuten-light"
-        >
-          了解更多股感 Stockfeel ↗
-        </a>
-      </section>
-
       {/* 分類導覽（錨點捲動） */}
       <MenuNav categories={menuData.categories} />
 
@@ -77,6 +48,41 @@ export default function MenuPage() {
           <CategorySection key={cat.name} category={cat} />
         ))}
       </div>
+
+      {/* 股感 Stockfeel 介紹 */}
+      <section className="mt-12 overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-sm">
+        <div className="p-5">
+          <div className="flex items-center gap-3">
+            <Image
+              src="/logo.png"
+              alt="Stockfeel 股感媒體 Logo"
+              width={260}
+              height={80}
+              className="h-9 w-auto shrink-0 rounded sm:h-11"
+            />
+            <h2 className="text-sm font-bold text-neutral-900 sm:text-base">
+              股感 Stockfeel
+            </h2>
+          </div>
+          <p className="mt-3 text-sm leading-relaxed text-neutral-600">
+            股感媒體是台灣領先的財經生活媒體，相信理財不只在螢幕上，更在日常裡。
+            這次我們走進青埔棒球場，實際營運黑松沙士快樂炒區——用一場球賽、一頓燒烤，讓財經理財知識跟你的生活更緊密地融合。
+            從投資組合到烤肉組合，從資產配置到菜單配置，我們想證明：
+            <strong>好的生活體驗，本身就是最好的理財實踐。</strong>
+          </p>
+        </div>
+        <a
+          href="https://www.stockfeel.com.tw/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 border-t border-neutral-100 bg-rakuten-light/50 px-4 py-3 text-sm font-bold text-rakuten-crimson transition-colors hover:bg-rakuten-light"
+        >
+          一起揮出理財 Home Run ↗
+        </a>
+      </section>
+
+      {/* 浮動回到頂部按鈕 */}
+      <ScrollToTop />
     </div>
   );
 }
