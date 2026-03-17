@@ -90,7 +90,7 @@ export default function SchedulePage() {
           樂天桃猿 Rakuten Monkeys 的主場。2026 賽季樂天桃猿在此進行 52
           場主場賽事，從 3 月底的開幕戰到 9 月的例行賽尾聲，每場比賽都能在
           <strong>黑松沙士快樂炒區</strong>
-          享受由朵頤餐飲 × 股感 Stockfeel 聯名提供的頂級燒烤——和牛、帶骨牛小排、
+          享受由股感 Stockfeel 營運的頂級燒烤——和牛、帶骨牛小排、
           伊比利豬、活凍草蝦，邊看球邊烤肉，是全台最獨特的棒球觀賽體驗。
         </p>
         <p className="mt-2">
