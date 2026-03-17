@@ -4,7 +4,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-/** Header 導航項目（順序：菜單 → 場次查詢 → 席次介紹 → 前往購票） */
+/** Header 導航項目（順序：菜單 → 場次查詢 → 席次介紹 → 前往購票 → 食材品牌） */
 const navItems = [
   {
     label: "菜單",
@@ -25,6 +25,11 @@ const navItems = [
     label: "前往購票",
     href: "https://ticket.ibon.com.tw/ActivityInfo/Details/39428",
     external: true,
+  },
+  {
+    label: "食材品牌",
+    href: "/brands",
+    external: false,
   },
 ] as const;
 
