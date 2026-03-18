@@ -17,7 +17,7 @@ export const menuData: MenuData = {
       price: 3200,
       servings: "3-5人",
       totalIfSingle: 3530,
-      image: "/images/sets/strongest-monkeys-4p.png",
+      image: "/images/sets/RM_08393_0.jpg",
       items: [
         { category: "牛肉", name: "汰暉 板腱牛燒烤片", quantity: 1, unitPrice: 369 },
         { category: "牛肉", name: "汰暉 牛五花燒烤片", quantity: 1, unitPrice: 280 },
@@ -39,7 +39,7 @@ export const menuData: MenuData = {
       price: 6000,
       servings: "8-10人",
       totalIfSingle: 6555,
-      image: "/images/sets/unite-monkeys-10p-weekday.png",
+      image: "/images/sets/RM_08230_0.jpg",
       items: [
         { category: "牛肉", name: "汰暉 帶骨牛小排", quantity: 1, unitPrice: 459 },
         { category: "牛肉", name: "汰暉 板腱牛燒烤片", quantity: 1, unitPrice: 369 },
@@ -67,7 +67,7 @@ export const menuData: MenuData = {
       price: 8000,
       servings: "8-10人",
       totalIfSingle: 8767,
-      image: "/images/sets/full-monkeys-10p-holiday.png",
+      image: "/images/sets/RM_07911_0.jpg",
       items: [
         { category: "和牛", name: "汰暉 澳洲和牛和尚頭燒烤片", quantity: 1, unitPrice: 499 },
         { category: "牛肉", name: "汰暉 帶骨牛小排", quantity: 1, unitPrice: 459 },
@@ -127,7 +127,7 @@ export const menuData: MenuData = {
       price: 1399,
       servings: "2-3人",
       totalIfSingle: 1537,
-      image: "/images/sets/unite-chicken-pork.png",
+      image: "/images/sets/RM_08471_0.jpg",
       items: [
         { category: "豬肉", name: "陞煇 台灣帶骨豬小排", quantity: 1, unitPrice: 369 },
         { category: "豬肉", name: "陞煇 台灣鹹豬肉", quantity: 1, unitPrice: 349 },
@@ -142,7 +142,7 @@ export const menuData: MenuData = {
       price: 2199,
       servings: "2-3人",
       totalIfSingle: 2474,
-      image: "/images/sets/monkeys-seafood.png",
+      image: "/images/sets/RM_08641_0.jpg",
       items: [
         { category: "水產", name: "嚴選活凍草蝦", quantity: 1, unitPrice: 899 },
         { category: "水產", name: "路邊烤肉 午魚一夜干", quantity: 1, unitPrice: 429 },
