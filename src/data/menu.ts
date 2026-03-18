@@ -220,7 +220,7 @@ export const menuData: MenuData = {
           name: "汰暉 帶骨牛小排",
           portion: "300g",
           price: 459,
-          image: "/images/items/bone-in-short-rib.png",
+          image: "/images/items/IMG_0950.jpg",
           description:
             "拿著骨頭啃，不需要刀叉。骨邊肉的膠質和油脂只有這樣吃才完整，兩片裝300g，啃完骨頭你會想把手指也舔乾淨。",
         },
@@ -265,7 +265,7 @@ export const menuData: MenuData = {
           name: "全州喜比食堂 168小時熟成豬五層肉",
           portion: "180g",
           price: 499,
-          image: "/images/items/xibi-pork-belly.png",
+          image: "/images/items/IMG_0949.jpg",
           description:
             "168小時——整整七天的熟成，讓水分蒸散、風味濃縮。五層分明的油脂與瘦肉各司其職，燒烤後的香氣密度是一般豬五花沒辦法比的。",
         },
@@ -355,7 +355,7 @@ export const menuData: MenuData = {
           portion: "--",
           price: 1299,
           needsReservation: true,
-          image: "/images/items/lobster-body.png",
+          image: "/images/items/IMG_0948.jpg",
           description:
             "對切上爐，看著蝦肉從透明慢慢轉成白玉色，鎖住的鮮汁在殼內微微冒泡。不加調味，鮮甜本身就是最好的醬。需提前預訂。",
         },
@@ -363,7 +363,7 @@ export const menuData: MenuData = {
           name: "嚴選活凍草蝦",
           portion: "600g/盒",
           price: 899,
-          image: "/images/items/white-shrimp.png",
+          image: "/images/items/IMG_0945.jpg",
           description:
             "600g一整盒，急速冷凍鎖住活蝦鮮度。蝦身飽滿，燒烤後蝦殼微焦、蝦肉緊實彈牙，剝殼的過程本身就是一種享受。",
         },
@@ -387,7 +387,7 @@ export const menuData: MenuData = {
           name: "凍半殼扇貝",
           portion: "1包",
           price: 329,
-          image: "/images/items/half-shell-scallop.png",
+          image: "/images/items/IMG_0952.jpg",
           description:
             "放上烤爐，加一點奶油或蒜蓉，等殼內的醬汁開始冒泡——這時候才是最佳入口時機。扇貝肉吸飽湯汁，鮮甜到不想分給別人。",
         },
@@ -416,7 +416,7 @@ export const menuData: MenuData = {
           name: "高粱古早味酒香腸",
           portion: "10入",
           price: 499,
-          image: "/images/items/kaoliang-sausage.png",
+          image: "/images/items/IMG_0951.jpg",
           description:
             "第一口是肉香，第二口高粱的酒氣才慢慢浮上來——醇厚、飽滿、收尾帶甘。10入份量，整桌一起吃剛好。",
         },
@@ -424,14 +424,14 @@ export const menuData: MenuData = {
           name: "蒜味古早味香腸",
           portion: "10入",
           price: 499,
-          image: "/images/items/garlic-sausage.png",
+          image: "/images/items/IMG_0951.jpg",
           description: "蒜香。肉汁。10入。蒜味控不用多說。",
         },
         {
           name: "香檬馬告創意香腸",
           portion: "5入",
           price: 299,
-          image: "/images/items/maqaw-sausage.png",
+          image: "/images/items/IMG_0951.jpg",
           description:
             "馬告，台灣原住民族的山胡椒，帶著檸檬草般的清新辛香。與香檬酸香交織在紮實肉腸裡，咬下去先是肉香、收尾是山林的氣息。只有台灣才有的味道。",
         },
@@ -439,7 +439,7 @@ export const menuData: MenuData = {
           name: "剝皮辣椒創意香腸",
           portion: "5入",
           price: 299,
-          image: "/images/items/chili-sausage.png",
+          image: "/images/items/IMG_0951.jpg",
           description:
             "看起來和普通香腸沒兩樣。咬下去才知道不一樣——剝皮辣椒的甘辣藏在肉汁深處，先甜後辣，後勁綿長。",
         },
