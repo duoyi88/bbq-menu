@@ -166,7 +166,7 @@ export const menuData: MenuData = {
           portion: "250g",
           price: 2999,
           needsReservation: true,
-          image: "/images/items/a5-newyork-steak.png",
+          image: "/images/items/venue-a5-newyork.jpg",
           description:
             "日本A5等級，紐約客部位，筋肉交錯間密布著頂級油花。250g厚切建議五分熟，切開來的粉嫩斷面和入口即化的油脂，就是這個價格最好的說明。",
         },
@@ -265,7 +265,7 @@ export const menuData: MenuData = {
           name: "全州喜比食堂 168小時熟成豬五層肉",
           portion: "180g",
           price: 499,
-          image: "/images/items/IMG_0949.jpg",
+          image: "/images/items/venue-xibi-pork.jpg",
           description:
             "168小時——整整七天的熟成，讓水分蒸散、風味濃縮。五層分明的油脂與瘦肉各司其職，燒烤後的香氣密度是一般豬五花沒辦法比的。",
         },
@@ -299,7 +299,7 @@ export const menuData: MenuData = {
           name: "陞煇 台灣鹹豬肉",
           portion: "300g",
           price: 349,
-          image: "/images/items/salted-pork.png",
+          image: "/images/items/venue-shenghui-pork.jpg",
           origin: "台灣",
           description:
             "蒜頭、米酒、鹽巴，醃漬入味後燒烤逼出油脂。切片搭蒜苗，鹹香從第一口貫穿到最後一口——這就是台灣夏天的味道。",
@@ -346,7 +346,7 @@ export const menuData: MenuData = {
           portion: "--",
           price: 3999,
           needsReservation: true,
-          image: "/images/items/king-crab-leg.png",
+          image: "/images/items/venue-king-crab.jpg",
           description:
             "北太平洋冷水蟹王。肉質飽滿、甜度極高。需提前預訂。",
         },
@@ -355,7 +355,7 @@ export const menuData: MenuData = {
           portion: "--",
           price: 1299,
           needsReservation: true,
-          image: "/images/items/IMG_0948.jpg",
+          image: "/images/items/venue-lobster.jpg",
           description:
             "對切上爐，看著蝦肉從透明慢慢轉成白玉色，鎖住的鮮汁在殼內微微冒泡。不加調味，鮮甜本身就是最好的醬。需提前預訂。",
         },
@@ -452,7 +452,7 @@ export const menuData: MenuData = {
           name: "季節綜合蔬菜盤",
           portion: "1份",
           price: 300,
-          image: "/images/items/veggie-platter.png",
+          image: "/images/items/venue-veggie-platter.jpg",
           description:
             "連吃了三輪肉，這時候需要它。當季蔬菜燒烤後甜度提升，一口下去味蕾瞬間舒緩，然後你又可以繼續吃肉了。",
         },
