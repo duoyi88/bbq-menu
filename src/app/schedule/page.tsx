@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { homeGames, teamShortNames, teamColors } from "@/data/schedule";
 
@@ -33,6 +34,23 @@ export default function SchedulePage() {
         >
           ← 回菜單
         </Link>
+
+        {/* 場地主視覺 */}
+        <div className="relative mb-4 overflow-hidden rounded-xl">
+          <Image
+            src="/images/venue-dining.jpg"
+            alt="球迷在樂天桃園棒球場黑松沙士快樂炒區用餐"
+            width={1200}
+            height={630}
+            className="w-full object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+          <p className="absolute bottom-4 left-5 text-lg font-bold text-white drop-shadow-md">
+            邊看球，邊烤肉
+          </p>
+        </div>
+
         <h1 className="text-xl font-bold text-neutral-900 sm:text-2xl">
           2026 樂天桃猿主場賽程
         </h1>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { brands } from "@/data/brands";
 
@@ -20,6 +21,23 @@ export default function BrandsPage() {
         >
           ← 回菜單
         </Link>
+
+        {/* 場地主視覺 */}
+        <div className="relative mb-4 overflow-hidden rounded-xl">
+          <Image
+            src="/images/venue-spread-1.jpg"
+            alt="黑松沙士快樂炒區精選食材擺盤"
+            width={1200}
+            height={630}
+            className="w-full object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+          <p className="absolute bottom-4 left-5 text-lg font-bold text-white drop-shadow-md">
+            嚴選食材，每一口都有來歷
+          </p>
+        </div>
+
         <h1 className="text-xl font-bold text-neutral-900 sm:text-2xl">
           食材品牌介紹
         </h1>
