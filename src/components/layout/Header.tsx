@@ -27,7 +27,7 @@ const navItems = [
   },
   {
     label: "前往購票",
-    href: "https://ticket.ibon.com.tw/ActivityInfo/Details/39428",
+    href: "https://ticket.ibon.com.tw/ActivityInfo/Details/39511",
     external: true,
   },
   {

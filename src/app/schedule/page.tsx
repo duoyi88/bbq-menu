@@ -64,7 +64,7 @@ export default function SchedulePage() {
 
       {/* 快速購票 CTA */}
       <a
-        href="https://ticket.ibon.com.tw/ActivityInfo/Details/39428"
+        href="https://ticket.ibon.com.tw/ActivityInfo/Details/39511"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-between rounded-xl bg-rakuten-crimson p-4 text-white shadow-sm transition-shadow hover:shadow-md"
