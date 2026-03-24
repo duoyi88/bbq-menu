@@ -263,7 +263,8 @@ export const menuData: MenuData = {
       items: [
         {
           name: "全州喜比食堂 168小時熟成豬五層肉",
-          portion: "180g",
+          portion: "230g",
+          portionBefore: "180g",
           price: 499,
           image: "/images/items/xibi-pork-belly.png",
           description:

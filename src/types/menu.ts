@@ -8,6 +8,8 @@ export interface MenuItem {
   name: string;
   /** 份量描述（如 "200g", "1包兩入"） */
   portion: string;
+  /** 升級前份量（有值時顯示加量升級 UI） */
+  portionBefore?: string;
   /** 售價（新台幣） */
   price: number;
   /** 食材介紹文字 */
