@@ -17,6 +17,20 @@ function ReservationBadge() {
   );
 }
 
+/** 加量升級份量顯示 */
+function PortionUpgrade({ before, after }: { before: string; after: string }) {
+  return (
+    <span className="inline-flex items-center gap-1.5">
+      <span className="text-neutral-400 line-through">{before}</span>
+      <span className="text-rakuten-crimson">→</span>
+      <span className="font-semibold text-rakuten-crimson">{after}</span>
+      <span className="inline-flex items-center rounded bg-rakuten-crimson/10 px-1.5 py-0.5 text-[10px] font-bold text-rakuten-crimson">
+        加量升級
+      </span>
+    </span>
+  );
+}
+
 /**
  * 單點品項卡片 — RWD
  *
@@ -58,7 +72,13 @@ export function ItemCard({ item }: ItemCardProps) {
                 <p className="text-base font-bold text-neutral-900">{item.name}</p>
                 {item.needsReservation && <ReservationBadge />}
               </div>
-              <p className="mt-0.5 text-sm text-neutral-500">{item.portion}</p>
+              <p className="mt-0.5 text-sm text-neutral-500">
+                {item.portionBefore ? (
+                  <PortionUpgrade before={item.portionBefore} after={item.portion} />
+                ) : (
+                  item.portion
+                )}
+              </p>
               {item.origin && (
                 <p className="mt-0.5 text-xs text-neutral-400">
                   產地：{item.origin}
@@ -113,11 +133,17 @@ export function ItemCard({ item }: ItemCardProps) {
               <p className="font-medium text-neutral-900">{item.name}</p>
               {item.needsReservation && <ReservationBadge />}
             </div>
-            <div className="mt-1 flex items-baseline gap-2">
+            <div className="mt-1 flex flex-wrap items-baseline gap-2">
               <p className="font-bold text-rakuten-crimson">
                 ${item.price.toLocaleString()}
               </p>
-              <p className="text-sm text-neutral-500">{item.portion}</p>
+              <p className="text-sm text-neutral-500">
+                {item.portionBefore ? (
+                  <PortionUpgrade before={item.portionBefore} after={item.portion} />
+                ) : (
+                  item.portion
+                )}
+              </p>
             </div>
             {item.origin && (
               <p className="mt-0.5 text-[11px] text-neutral-400">
