@@ -17,6 +17,15 @@ function ReservationBadge() {
   );
 }
 
+/** 下半季新價格 Badge */
+function SecondHalfBadge({ newPrice }: { newPrice: number }) {
+  return (
+    <span className="inline-flex items-center rounded-md bg-amber-50 px-2 py-0.5 text-xs font-semibold text-amber-700 ring-1 ring-inset ring-amber-600/30">
+      下半季 ${newPrice}
+    </span>
+  );
+}
+
 /** 加量升級份量顯示 */
 function PortionUpgrade({ before, after }: { before: string; after: string }) {
   return (
@@ -71,6 +80,7 @@ export function ItemCard({ item }: ItemCardProps) {
               <div className="flex items-center gap-2">
                 <p className="text-base font-bold text-neutral-900">{item.name}</p>
                 {item.needsReservation && <ReservationBadge />}
+                {item.secondHalfPrice && <SecondHalfBadge newPrice={item.secondHalfPrice} />}
               </div>
               <p className="mt-0.5 text-sm text-neutral-500">
                 {item.portionBefore ? (
@@ -132,6 +142,7 @@ export function ItemCard({ item }: ItemCardProps) {
             <div className="flex flex-wrap items-center gap-1.5">
               <p className="font-medium text-neutral-900">{item.name}</p>
               {item.needsReservation && <ReservationBadge />}
+              {item.secondHalfPrice && <SecondHalfBadge newPrice={item.secondHalfPrice} />}
             </div>
             <div className="mt-1 flex flex-wrap items-baseline gap-2">
               <p className="font-bold text-rakuten-crimson">

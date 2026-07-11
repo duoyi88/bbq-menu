@@ -17,6 +17,21 @@ export default function MenuPage() {
       {/* 分類導覽（錨點捲動） */}
       <MenuNav categories={menuData.categories} />
 
+      {/* 下半季價格調整公告 */}
+      <div className="mt-6 rounded-lg border border-amber-200 bg-amber-50 p-4">
+        <div className="flex items-start gap-3">
+          <span className="text-amber-600 text-lg">📢</span>
+          <div>
+            <p className="text-sm font-semibold text-amber-800">
+              下半季價格調整公告（已於 7/1 生效）
+            </p>
+            <p className="mt-1 text-sm text-amber-700">
+              因應國際肉品價格調整，下半季部分品項單點價格已調整，套餐組合價格不變。
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* 全部內容 */}
       <div className="mt-6 space-y-10">
         {/* 多人組合套餐 */}

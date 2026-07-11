@@ -12,6 +12,8 @@ export interface MenuItem {
   portionBefore?: string;
   /** 售價（新台幣） */
   price: number;
+  /** 下半季新售價（新台幣），有值時顯示預告標籤 */
+  secondHalfPrice?: number;
   /** 食材介紹文字 */
   description?: string;
   /** 是否需要預訂 */
